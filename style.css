@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://calculadoradeedad.com/assets/images/blog-post/blog_big_03.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+main {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+    }
+.box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.inner-box {
+    background-color: black;
+    height: 70px;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 0 3px 0.6px rgb(39, 12, 12);
+
+    }
+.date {
+    border: none;
+    font-size: 0.7rem;
+    width: 90px;
+    height: 20px;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: "Lucida Sans";
+    }
+.calculate {
+    font-size: 0.7rem;
+    width: 60px; height: 30px;
+    border: none;
+    border-radius: 1px;
+    font-family: "Lucida Sans";
+    }   
+.inner-boxs {
+    background-color: black; height: 60px;
+    width: 50px; margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 1px 0.1px rgb(39, 12, 12);
+    }   
+.number {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; font-size: 1.5rem;
+    }  
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.7rem;  
+    color: rgba(239, 238, 238, 0.941);
+    }        
